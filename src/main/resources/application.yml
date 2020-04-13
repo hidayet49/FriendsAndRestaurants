@@ -1,0 +1,35 @@
+
+spring:
+  datasource:
+    driverClassName : org.h2.Driver
+    username: sa
+    password: abc
+    url: jdbc:h2:mem:testdb
+
+  application:
+    name: productionservice
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      use-new-id-generator-mappings: true
+      ddl-Auto: create
+      show-sql: true
+  h2:
+    console:
+      path: /api/all/h2
+      settings:
+        web-allow-others: true
+      enabled: true
+    allowed:
+      resources: /api/all/h2/**
+  security:
+    basic:
+      enabled: true
+      authorize-mode: NONE
+server:
+  port: 8080
+
+hidayet:
+  app:
+    jwtSecret: HidayetSECRETKEY
+    jwtExpirationMs : 86400000
