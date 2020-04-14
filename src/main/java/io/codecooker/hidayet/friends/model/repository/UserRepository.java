@@ -1,9 +1,9 @@
-package io.codecooker.hidayet.friends.repository;
+package io.codecooker.hidayet.friends.model.repository;
 
 
 import java.util.Optional;
 
-import io.codecooker.hidayet.friends.model.DAO.User;
+import io.codecooker.hidayet.friends.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

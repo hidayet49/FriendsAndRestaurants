@@ -1,14 +1,14 @@
 package io.codecooker.hidayet.friends.service;
 
-import io.codecooker.hidayet.friends.model.DAO.Location;
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
+import io.codecooker.hidayet.friends.model.entity.Location;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 import io.codecooker.hidayet.friends.model.EColor;
 import io.codecooker.hidayet.friends.model.ERole;
-import io.codecooker.hidayet.friends.model.DAO.Role;
-import io.codecooker.hidayet.friends.model.DAO.User;
-import io.codecooker.hidayet.friends.repository.LocationRepository;
-import io.codecooker.hidayet.friends.repository.RoleRepository;
-import io.codecooker.hidayet.friends.repository.UserRepository;
+import io.codecooker.hidayet.friends.model.entity.Role;
+import io.codecooker.hidayet.friends.model.entity.User;
+import io.codecooker.hidayet.friends.model.repository.LocationRepository;
+import io.codecooker.hidayet.friends.model.repository.RoleRepository;
+import io.codecooker.hidayet.friends.model.repository.UserRepository;
 import io.codecooker.hidayet.friends.util.ConvertUtilImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
 package io.codecooker.hidayet.friends.security.services;
 
-import io.codecooker.hidayet.friends.model.DAO.User;
-import io.codecooker.hidayet.friends.repository.UserRepository;
+import io.codecooker.hidayet.friends.model.entity.User;
+import io.codecooker.hidayet.friends.model.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

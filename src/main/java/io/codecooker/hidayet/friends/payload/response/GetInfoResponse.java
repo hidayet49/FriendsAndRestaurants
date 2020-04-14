@@ -1,6 +1,6 @@
 package io.codecooker.hidayet.friends.payload.response;
 
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

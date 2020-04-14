@@ -1,7 +1,5 @@
-package io.codecooker.hidayet.friends.model.DAO;
+package io.codecooker.hidayet.friends.model.entity;
 
-import io.codecooker.hidayet.friends.model.DAO.Location;
-import io.codecooker.hidayet.friends.model.DAO.Role;
 import io.codecooker.hidayet.friends.model.EColor;
 import lombok.Getter;
 import lombok.Setter;

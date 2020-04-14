@@ -1,4 +1,4 @@
-package io.codecooker.hidayet.friends.model.DAO;
+package io.codecooker.hidayet.friends.model.entity;
 
 import lombok.Getter;
 import lombok.Setter;

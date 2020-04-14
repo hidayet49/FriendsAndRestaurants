@@ -1,7 +1,7 @@
-package io.codecooker.hidayet.friends.repository;
+package io.codecooker.hidayet.friends.model.repository;
 
-import io.codecooker.hidayet.friends.model.DAO.Location;
-import io.codecooker.hidayet.friends.model.DAO.User;
+import io.codecooker.hidayet.friends.model.entity.Location;
+import io.codecooker.hidayet.friends.model.entity.User;
 import io.codecooker.hidayet.friends.util.DistanceUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;

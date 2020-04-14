@@ -1,13 +1,13 @@
 package io.codecooker.hidayet.friends.controllers;
 
-import io.codecooker.hidayet.friends.model.DAO.Role;
-import io.codecooker.hidayet.friends.model.DAO.User;
+import io.codecooker.hidayet.friends.model.entity.Role;
+import io.codecooker.hidayet.friends.model.entity.User;
 import io.codecooker.hidayet.friends.payload.request.LoginRequest;
 import io.codecooker.hidayet.friends.payload.request.SignUpRequest;
 import io.codecooker.hidayet.friends.payload.response.JwtResponse;
 import io.codecooker.hidayet.friends.payload.response.MessageResponse;
-import io.codecooker.hidayet.friends.repository.RoleRepository;
-import io.codecooker.hidayet.friends.repository.UserRepository;
+import io.codecooker.hidayet.friends.model.repository.RoleRepository;
+import io.codecooker.hidayet.friends.model.repository.UserRepository;
 import io.codecooker.hidayet.friends.security.jwt.JwtUtils;
 import io.codecooker.hidayet.friends.security.services.UserDetailsImpl;
 import io.codecooker.hidayet.friends.util.ConvertUtilImpl;

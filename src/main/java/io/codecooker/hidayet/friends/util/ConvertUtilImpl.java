@@ -1,16 +1,15 @@
 package io.codecooker.hidayet.friends.util;
 
-import io.codecooker.hidayet.friends.model.DAO.Role;
-import io.codecooker.hidayet.friends.model.DAO.User;
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
+import io.codecooker.hidayet.friends.model.entity.Role;
+import io.codecooker.hidayet.friends.model.entity.User;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 import io.codecooker.hidayet.friends.model.ERole;
-import io.codecooker.hidayet.friends.repository.RoleRepository;
+import io.codecooker.hidayet.friends.model.repository.RoleRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 @Component
 public class ConvertUtilImpl implements ConvertUtil{

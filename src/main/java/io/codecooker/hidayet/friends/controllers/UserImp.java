@@ -1,11 +1,10 @@
 package io.codecooker.hidayet.friends.controllers;
 
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 import io.codecooker.hidayet.friends.payload.request.ChangeColorRequest;
 import io.codecooker.hidayet.friends.payload.response.GetInfoResponse;
 import io.codecooker.hidayet.friends.payload.response.MessageResponse;
 import io.codecooker.hidayet.friends.security.services.UserDetailsImpl;
-import io.codecooker.hidayet.friends.service.UserService;
 import io.codecooker.hidayet.friends.service.UserServiceImp;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

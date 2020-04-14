@@ -1,7 +1,6 @@
 package io.codecooker.hidayet.friends.service;
 
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
-import org.springframework.security.core.Authentication;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 
 import java.util.List;
 import java.util.Set;

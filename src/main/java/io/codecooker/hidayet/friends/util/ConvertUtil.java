@@ -1,8 +1,8 @@
 package io.codecooker.hidayet.friends.util;
 
-import io.codecooker.hidayet.friends.model.DAO.Role;
-import io.codecooker.hidayet.friends.model.DAO.User;
-import io.codecooker.hidayet.friends.model.DTO.UserDTO;
+import io.codecooker.hidayet.friends.model.entity.Role;
+import io.codecooker.hidayet.friends.model.entity.User;
+import io.codecooker.hidayet.friends.payload.dto.UserDTO;
 
 import java.util.Collection;
 

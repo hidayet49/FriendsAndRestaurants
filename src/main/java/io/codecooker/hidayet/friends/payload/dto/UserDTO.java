@@ -1,6 +1,6 @@
-package io.codecooker.hidayet.friends.model.DTO;
+package io.codecooker.hidayet.friends.payload.dto;
 
-import io.codecooker.hidayet.friends.model.DAO.Role;
+import io.codecooker.hidayet.friends.model.entity.Role;
 import lombok.Getter;
 import lombok.Setter;
 
